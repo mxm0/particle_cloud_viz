@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>particle_cloud_viz</name>
+  <version>0.0.1</version>
+  <description>The particle_cloud_viz package</description>
+
+  <maintainer email="max.innocentini@gmail.co">mxm0</maintainer>
+
+  <license>TODO</license>
+
+  <author email="max.innocentini@gmail.com">Massimo Innocentini</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cpp</build_depend>
+  <build_export_depend>cpp</build_export_depend>
+  <exec_depend>cpp</exec_depend>
+  <build_depend>qtbase5-dev</build_depend>
+  <build_depend>rviz</build_depend>
+
+  <exec_depend>libqt5-core</exec_depend>
+  <exec_depend>libqt5-gui</exec_depend>
+  <exec_depend>libqt5-widgets</exec_depend>
+  <exec_depend>rviz</exec_depend>
+
+	<depend>particle_filter_msgs</depend>
+
+  <export>
+		<rviz plugin="${prefix}/plugin_description.xml" />
+  </export>
+</package>
